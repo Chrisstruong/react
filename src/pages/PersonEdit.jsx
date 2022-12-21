@@ -48,7 +48,7 @@ const People = (props) => {
         // check any fields for property data types / truthy value (function call - stretch)
         try {
             const requestOptions = {
-                method: "POST",
+                method: "PUT",
                 headers: {
                     "Content-Type": "application/json"
                 },
@@ -172,4 +172,4 @@ const People = (props) => {
 
 }
 
-export default People
+// export default People
